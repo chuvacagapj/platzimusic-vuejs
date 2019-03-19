@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://chuvacagapj.github.io/platzimusic-vuejs/assets/logo.png')
     h1 Platzimusic
     select(v-model="selectedContry")
       option(v-for="contry in contries" v-bind:value="contry.value") {{contry.name}}
